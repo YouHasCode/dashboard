@@ -7,7 +7,7 @@
         </h1>
         <p class="description">
           Read our documentation <a class="hover-underline-animation" href="https://sidebase.io/sidebase/welcome" target="_blank">here</a>.
-          Get started in no time with the following amazing modules:
+          Get started in no tifme with the following amazing modules:
         </p>
       </div>
 
