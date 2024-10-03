@@ -1,4 +1,7 @@
-model Example {
-  id          String @id @default(uuid())
-  details     String
+model User {
+  id        Int      @id @default(autoincrement())
+  username  String   @unique
+  password  String
+  sessionToken String?  // Field to store session information for the active device
+  createdAt DateTime @default(now())
 }

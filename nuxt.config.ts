@@ -3,7 +3,8 @@ export default defineNuxtConfig({
   modules: [
     '@nuxtjs/tailwindcss',
     '@sidebase/nuxt-auth',
-    '@nuxtjs/i18n'
+    '@nuxtjs/i18n',
+    '@nuxthub/core'
   ],
   i18n: {
     strategy: 'prefix_except_default',
